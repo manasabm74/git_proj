@@ -1,0 +1,57 @@
+/* default styles */
+body, h1, h2, p, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/*  sections */
+section {
+    margin: 20px;
+}
+
+/* Top Section Styles */
+.top-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Image Section Styles */
+.image-section {
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Trivia Section Styles */
+.trivia-section {
+    margin-top: 20px;
+}
+
+.trivia-section h2 {
+    color: #333;
+}
+
+.trivia-section ol {
+    list-style-type: none;
+}
+
+.trivia-section li {
+    margin-bottom: 10px;
+}
+
+/* Anchor Styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
